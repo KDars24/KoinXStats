@@ -1,0 +1,31 @@
+{
+  "name": "koinxstats",
+  "version": "1.0.0",
+  "description": "git",
+  "main": "/src/server.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KDars24/cryptoKoinStats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KDars24/cryptoKoinStats/issues"
+  },
+  "homepage": "https://github.com/KDars24/cryptoKoinStats#readme",
+  "dependencies": {
+    "@vercel/node": "^5.0.2",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.4",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
